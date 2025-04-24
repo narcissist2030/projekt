@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="dajspokuj.png" type="image/x-icon">
+    <title>Pyszka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Strona Główna</a></li>
+                <li><a href="index3.html">Twoje Przepisy</a></li>
+                <li><a href="index2.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1>Pyszka!</h1>
+        <input type="text" id="search" placeholder="Wyszukaj przepis..." oninput="searchRecipes()">
+    </header>
+
+    <main>
+        <section id="recipe-list">
+            <!-- Przepisy będą dynamicznie załadowane tutaj -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;   Przepisy oraz Pomysły na dania kuchenne. Strona wykonana przez: Dominik Pyszka.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
